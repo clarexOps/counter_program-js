@@ -13,3 +13,7 @@ resetBtn.onclick = function () {
     count = 0;
     countLabel.textContent = count;
 }
+increaseBtn.onclick = function () {
+    count++;
+    countLabel.textContent = count; 
+}
