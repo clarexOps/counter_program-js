@@ -6,10 +6,10 @@ const increaseBtn = document.getElementById("increaseBtn");
 let count = 0;
 
 decreaseBtn.onclick = function () {
-    count--
+    count--;
     countLabel.textContent = count;
 }
 resetBtn.onclick = function () {
-    count = 0
+    count = 0;
     countLabel.textContent = count;
 }
